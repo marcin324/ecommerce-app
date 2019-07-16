@@ -1,0 +1,37 @@
+.pagin {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.icon-left-open-big,
+.icon-right-open-big {
+  margin: 0 40px;
+  font-size: 40px;
+  color: #999999;
+  cursor: pointer;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.pagin form {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagin input {
+  width: 50px;
+  height: 40px;
+  border: 1px solid #999999;
+  text-align: center;
+}
+
+.pagin input[type="number"]::-webkit-inner-spin-button,
+.pagin input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
