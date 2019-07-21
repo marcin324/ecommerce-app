@@ -28,7 +28,7 @@ class App extends Component {
   componentDidMount() {
     this.setState({ searchText: "" });
     const { itemsCountPerPage } = this.state;
-    fetch(`http://localhost:3000/products?_page=1&_limit=${itemsCountPerPage}`)
+    fetch(`http://localhost:3005/products?_page=1&_limit=${itemsCountPerPage}`)
       .then(response => response.json())
       .then(data => {
         this.setState({
