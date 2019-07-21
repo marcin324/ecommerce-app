@@ -12,11 +12,11 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start && npm run dev",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "json-server --watch src/db.json --port 3005"
+    "dev": "json-server --watch src/db.json --port 3000"
   },
   "eslintConfig": {
     "extends": "react-app"
