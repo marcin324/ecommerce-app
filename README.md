@@ -1,9 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm run dev` - running the API
 
 Node.js 8 or greater is required.
@@ -12,6 +6,13 @@ Node.js 8 or greater is required.
 
 Server address will appear in the terminal.
 Then click on the [link](https://marcin324.github.io/ecommerce-app/)
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm start`
 
