@@ -11,7 +11,7 @@ Node.js or greater is required.
 `npm run dev`
 
 Server address will appear in the terminal.
-Then click on the [link] (https://marcin324.github.io/ecommerce-app/)
+Then click on the [link](https://marcin324.github.io/ecommerce-app/)
 
 ### `npm start`
 
