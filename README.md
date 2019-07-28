@@ -1,4 +1,4 @@
-### `npm run dev` - running the API
+# `npm run dev` - running the API
 
 Node.js 8 or greater is required.
 
