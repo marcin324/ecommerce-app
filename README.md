@@ -4,7 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm run dev`
+### `npm run dev` - running the API
+
+Node.js or greater is required.
+
+`npm run dev`
+
+Server address will appear in the terminal.
+Then click on the [link] (https://marcin324.github.io/ecommerce-app/)
 
 ### `npm start`
 
