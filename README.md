@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm run dev` - running the API
 
-Node.js or greater is required.
+Node.js 8 or greater is required.
 
 `npm run dev`
 
