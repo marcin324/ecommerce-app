@@ -8,6 +8,10 @@ Server address will appear in the terminal.
 Then click on the [link](https://marcin324.github.io/ecommerce-app/)
 
 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
