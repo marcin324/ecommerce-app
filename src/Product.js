@@ -15,9 +15,6 @@ class Product extends Component {
     };
   }
 
-  json = this.props.product.general.description;
-  description = this.json.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, "");
-
   onGiveNumber = e => {
     this.setState({
       numberOfProducts: e.target.value,
@@ -57,6 +54,10 @@ class Product extends Component {
       handleShowModal,
       handleHideModal
     } = this.props;
+
+    const paragraph = document.createElement("span");
+    paragraph.innerHTML = product.general.description;
+    const description = paragraph.innerText.trim();
 
     const { numberOfProducts } = this.state;
 
@@ -105,7 +106,7 @@ class Product extends Component {
               </div>
               <p>{product.brand.name}</p>
               <p>{product.general.name}</p>
-              <p>{this.description}</p>
+              <p>{description}</p>
               <p>ID: {product.general.presentable_id}</p>
               <AddToCart
                 product={product}
